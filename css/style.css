@@ -642,3 +642,17 @@ li.timeline-item::before {
   background-color: white;
   opacity: 1;
 }
+/* .partner .partner-box-1 .name-1, .partner .partner-box-2 .name-2, .partner .partner-box-3 .name-3, .partner .partner-box-4 .name-4{
+  visibility: hidden;
+} */
+.partner .partner-box-1:hover, .partner .partner-box-2:hover, .partner .partner-box-3:hover, .partner .partner-box-4:hover
+{
+  opacity:0.5;
+}
+.partner .partner-box-1:hover .name-1
+{
+  visibility: visible;
+  z-index: 999 !important;
+  color:black;
+  margin:auto;
+}
