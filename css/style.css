@@ -28,11 +28,11 @@ body {
   scrollbar-width: none;
 }
 ::selection {
-  color: #fff;
+  color: #000;
   background-color: #eff599;
 }
 ::-moz-selection {
-  color: #fff;
+  color: #000;
   background-color:  #eff599;
 }
 
@@ -607,4 +607,38 @@ li.timeline-item::before {
 {
   color:gray;
 }
-
+.partner{
+  background-color: white;
+}
+.partner .partner-box {
+  display: block;
+  opacity: 0.3;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.partner .partner-box:hover {
+  opacity: 1;
+}
+.partner .partner-box-1 {
+  background: url(../assets/logo/kolaarukec.png) no-repeat center center/contain;
+  background-color: white;
+  opacity: 1;
+}
+.partner .partner-box-2 {
+  background: url(../assets/logo/Talksters.png) no-repeat center center/contain;
+  background-color: white;
+  opacity: 1;
+}
+.partner .partner-box-3 {
+  background: url(../assets/logo/shutterupmedia.png) no-repeat center center/contain;
+  background-color: white;
+  opacity: 1;
+}
+.partner .partner-box-4 {
+  background: url(../assets/logo/RVWhite.png) no-repeat center center/contain;
+  background-color: white;
+  opacity: 1;
+}
