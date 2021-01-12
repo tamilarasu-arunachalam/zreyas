@@ -511,6 +511,9 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .full-height h1 {
     font-size: 30px;
   }
+  h1{
+    font-size: 25px;
+  }
 }
 .form-group .input-group ::placeholder {
   color: snow;
