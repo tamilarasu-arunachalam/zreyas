@@ -556,7 +556,6 @@ ul.timeline {
   position: relative;
   padding-left: 1.5rem;
 }
-
 /* Timeline vertical line */
 ul.timeline:before {
   content: ' ';
@@ -646,26 +645,14 @@ li.timeline-item::before {
   opacity: 1;
   position: relative;
 }
-/* .partner .partner-box-1 .name-1, .partner .partner-box-2 .name-2, .partner .partner-box-3 .name-3, .partner .partner-box-4 .name-4{
-  visibility: hidden;
-} */
-.partner .partner-box-1:hover, .partner .partner-box-2:hover, .partner .partner-box-3:hover, .partner .partner-box-4:hover
+.nav-tabs .nav-item .active
 {
-  opacity:0.5;
+ color:gold;
+ background:#343a40;
+ outline:none;
 }
-.partner #name-1{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: black;
-  visibility: hidden;
-  opacity: 0;
-}
-.partner .partner-box-1:hover #name-1
+.nav-tabs .nav-item:hover .nav-link
 {
-  visibility: visible;
-  opacity: 1;
+  color:gold;
+  background:#343a40;
 }
