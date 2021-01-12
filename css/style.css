@@ -626,21 +626,25 @@ li.timeline-item::before {
   background: url(../assets/logo/kolaarukec.png) no-repeat center center/contain;
   background-color: white;
   opacity: 1;
+  position: relative;
 }
 .partner .partner-box-2 {
   background: url(../assets/logo/Talksters.png) no-repeat center center/contain;
   background-color: white;
   opacity: 1;
+  position: relative;
 }
 .partner .partner-box-3 {
   background: url(../assets/logo/shutterupmedia.png) no-repeat center center/contain;
   background-color: white;
   opacity: 1;
+  position: relative;
 }
 .partner .partner-box-4 {
   background: url(../assets/logo/RV-White.png) no-repeat center center/contain;
   background-color: white;
   opacity: 1;
+  position: relative;
 }
 /* .partner .partner-box-1 .name-1, .partner .partner-box-2 .name-2, .partner .partner-box-3 .name-3, .partner .partner-box-4 .name-4{
   visibility: hidden;
@@ -649,10 +653,19 @@ li.timeline-item::before {
 {
   opacity:0.5;
 }
-.partner .partner-box-1:hover .name-1
+.partner #name-1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+}
+.partner .partner-box-1:hover #name-1
 {
   visibility: visible;
-  z-index: 999 !important;
-  color:black;
-  margin:auto;
+  opacity: 1;
 }
