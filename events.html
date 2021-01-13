@@ -9,195 +9,200 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="hero-anime dark">
-    <div class="navigation-wrap bg-light start-header start-style">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-md navbar-light">
+<body class="hero-anime dark" onload="myFunction()">
+    <div id="loader"></div>
+    <div id="myDiv" style="display:none;" class="animate-bottom">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
 
-                        <a class="navbar-brand text-white" href="#" target="_blank">
-                            ZREYAS
-                        </a>
+                            <a class="navbar-brand text-white" href="#" target="_blank">
+                                ZREYAS
+                            </a>
 
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="about.html">About</a>
-								</li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link">Events</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="multimedia-partners.html">Multimedia Partners</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                        <a class="nav-link">Events</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="multimedia-partners.html">Multimedia Partners</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section full-height">
-        <div class="absolute-center">
-            <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h1><span>E</span><span>v</span><span>e</span><span>n</span><span>t</span>
-                                <span>R</span><span>e</span><span>g</span><span>i</span><span>s</span><span>t</span><span>r</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
-                            </h1><br>
-                            <section class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-7 p-2">
-                                        <form action="">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <div class="input-group">
-                                                            <input type="text" name="firstname" id="firstname"
-                                                                placeholder="First Name" pattern="[A-Za-z]{1,}"
-                                                                class="form-control bg-dark rounded-0 py-2">
+        <div class="section full-height">
+            <div class="absolute-center">
+                <div class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1><span>E</span><span>v</span><span>e</span><span>n</span><span>t</span>
+                                    <span>R</span><span>e</span><span>g</span><span>i</span><span>s</span><span>t</span><span>r</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
+                                </h1><br>
+                                <section class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-7 p-2">
+                                            <form action="">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <input type="text" name="firstname" id="firstname"
+                                                                    placeholder="First Name" pattern="[A-Za-z]{1,}"
+                                                                    class="form-control bg-dark rounded-0 py-2">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <input type="text" name="lastname" id="lastname"
+                                                                    placeholder="Last Name" pattern="[A-Za-z]{1,}"
+                                                                    class="form-control bg-dark rounded-0 py-2">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <div class="input-group">
-                                                            <input type="text" name="lastname" id="lastname"
-                                                                placeholder="Last Name" pattern="[A-Za-z]{1,}"
-                                                                class="form-control bg-dark rounded-0 py-2">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <input type="email" name="email"
+                                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email"
+                                                            placeholder="Email"
+                                                            class="form-control rounded-0 bg-dark py-2">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <input type="text" name="clgname" id="clgname"
+                                                            placeholder="College Name"
+                                                            class="form-control rounded-0 bg-dark py-2">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <input type="tel" name="wnum" id="wnum"
+                                                                    placeholder="Whatsapp Number"
+                                                                    pattern="[6-9]{1}[0-9]{9}"
+                                                                    class="form-control rounded-0 bg-dark py-2">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <input type="text" name="place" id="place"
+                                                                    placeholder="Place"
+                                                                    class="form-control rounded-0 bg-dark py-2">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <input type="email" name="email"
-                                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email"
-                                                        placeholder="Email" class="form-control rounded-0 bg-dark py-2">
+                                                <div class="form-group text-center">
+                                                    <button class="btn btn-warning rounded-0 w-40">Register</button>
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <input type="text" name="clgname" id="clgname"
-                                                        placeholder="College Name"
-                                                        class="form-control rounded-0 bg-dark py-2">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <div class="input-group">
-                                                            <input type="tel" name="wnum" id="wnum"
-                                                                placeholder="Whatsapp Number" pattern="[6-9]{1}[0-9]{9}"
-                                                                class="form-control rounded-0 bg-dark py-2">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <div class="input-group">
-                                                            <input type="text" name="place" id="place"
-                                                                placeholder="Place"
-                                                                class="form-control rounded-0 bg-dark py-2">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group text-center">
-                                                <button class="btn btn-warning rounded-0 w-40">Register</button>
-                                            </div>
-                                        </form>
+                                            </form>
+                                        </div>
                                     </div>
-                                </div>
-                            </section>
+                                </section>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <h1><span>T</span><span>i</span><span>m</span><span>e</span><span>l</span><span>i</span><span>n</span><span>e</span>
-    </h1>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-sm-3 mx-2">
-                <ul class="timeline">
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Launch</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>19 January, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Last date for Abstract Submission</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>29 January, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Shortlisted Notification (paper/project/idea presentation)
-                        </h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>30 January, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Last date for Work Submission</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>31 January, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Paper Presentation</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>1 February, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Project and Idea Presentation</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>2 February, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Workshop</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>3 February, 2021</span>
+        <h1><span>T</span><span>i</span><span>m</span><span>e</span><span>l</span><span>i</span><span>n</span><span>e</span>
+        </h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-sm-3 mx-2">
+                    <ul class="timeline">
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Launch</h2><span class="small text-secondary"><i
+                                    class="fa fa-clock-o mr-1"></i>19 January, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Last date for Abstract Submission</h2><span
+                                class="small text-secondary"><i class="fa fa-clock-o mr-1"></i>29 January, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Shortlisted Notification (paper/project/idea presentation)
+                            </h2><span class="small text-secondary"><i class="fa fa-clock-o mr-1"></i>30 January,
+                                2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Last date for Work Submission</h2><span
+                                class="small text-secondary"><i class="fa fa-clock-o mr-1"></i>31 January, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Paper Presentation</h2><span class="small text-secondary"><i
+                                    class="fa fa-clock-o mr-1"></i>1 February, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Project and Idea Presentation</h2><span
+                                class="small text-secondary"><i class="fa fa-clock-o mr-1"></i>2 February, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Workshop</h2><span class="small text-secondary"><i
+                                    class="fa fa-clock-o mr-1"></i>3 February, 2021</span>
 
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Open Mic</h2><span class="small text-secondary    "><i
-                                class="fa fa-clock-o mr-1"></i>4 February, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Fun Events</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>5 February, 2021</span>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-dark">Algo Tricks</h2><span class="small text-secondary"><i
-                                class="fa fa-clock-o mr-1"></i>6 February, 2021</span>
-                    </li>
-                </ul>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Open Mic</h2><span class="small text-secondary    "><i
+                                    class="fa fa-clock-o mr-1"></i>4 February, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Fun Events</h2><span class="small text-secondary"><i
+                                    class="fa fa-clock-o mr-1"></i>5 February, 2021</span>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 text-center">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0 text-dark">Algo Tricks</h2><span class="small text-secondary"><i
+                                    class="fa fa-clock-o mr-1"></i>6 February, 2021</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
         <div class="my-5 py-5">
         </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.bundle.js"></script>
-        <script src="js/custom.js"></script>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
