@@ -514,6 +514,15 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   h1{
     font-size: 25px;
   }
+  .full-height .absolute-center .big{
+    display:none;
+  }
+}
+@media (min-width: 767px)
+{
+  .full-height .absolute-center .small{
+    display: none;
+  }
 }
 .form-group .input-group ::placeholder {
   color: snow;
