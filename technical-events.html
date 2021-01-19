@@ -13,11 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body class="hero-anime dark" style="font-family: 'Josefin Sans';">
+<body class="hero-anime dark" style="font-family: 'Josefin Sans';" onload="showAlert();">
     <script>
-        var pathRegex = /technical-events\.html\?papyruspitch\=success/;
-        if (pathRegex.test(window.location.href)) {
-            alert("Thank You For registering Papyrus Pitch")
+        function showAlert()
+        {
+            var pathRegex = /technical-events\.html\?papyruspitch\=success/;
+            if (pathRegex.test(window.location.href)) {
+                alert("Thank You For registering Papyrus Pitch");
+                history.pushState({}, null, 'technical-events.html');
+            }
         }
     </script>
     <div class="navigation-wrap bg-light start-header start-style">
