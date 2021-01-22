@@ -17,7 +17,7 @@
     <script>
         function showAlert()
         {
-            var pathRegex = /technical-events\.html\?papyruspitch\=success/;
+            var pathRegex = /technical-events\.html\?eventregister\=success/;
             if (pathRegex.test(window.location.href)) {
                 alert("Thank You For registering Papyrus Pitch");
                 history.pushState({}, null, 'technical-events.html');
@@ -263,7 +263,7 @@
                                         <div class="col-md-7 p-2">
                                             <script type="text/javascript">var submitted = false;</script>
                                             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-                                                onload="if(submitted) {window.location='technical-events.html?papyruspitch=success';}"></iframe>
+                                                onload="if(submitted) {window.location='technical-events.html?eventregister=success';}"></iframe>
                                             <form
                                                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/formResponse"
                                                 target="hidden_iframe" onsubmit="submitted=true;" method="post">
