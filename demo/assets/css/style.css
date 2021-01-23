@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
@@ -964,10 +965,10 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
+  width: 80px;
   border-radius: 50%;
   float: left;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(175, 159, 159, 0.2);
 }
 
 .menu .menu-content {
@@ -979,9 +980,7 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................"
- "...................................................................."
- "....................................................................";
+  content: "";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1077,11 +1076,24 @@ section {
 .specials .details p:last-child {
   margin-bottom: 0;
 }
+.specials .card a[aria-expanded=false] .fa-chevron-up {
+  display: none;
+}
+.specials .card a[aria-expanded=true] .fa-chevron-down {
+  display: none;
+}
+/*  */
 
 @media (max-width: 992px) {
   .specials .nav-link {
     border: 0;
     padding: 15px;
+  }
+  .specials .card a[aria-expanded=false] .fa-chevron-up {
+    display: none;
+  }
+  .specials .card a[aria-expanded=true] .fa-chevron-down {
+    display: none;
   }
 }
 
