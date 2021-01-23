@@ -1089,11 +1089,8 @@ section {
     border: 0;
     padding: 15px;
   }
-  .specials .card a[aria-expanded=false] .fa-chevron-up {
-    display: none;
-  }
-  .specials .card a[aria-expanded=true] .fa-chevron-down {
-    display: none;
+  .specials .accordion{
+    width:100%;
   }
 }
 
