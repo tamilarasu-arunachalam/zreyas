@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="../assets/logo/zreyas-icon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -55,21 +55,19 @@
       </div>
     </div>
   </div> -->
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-
       <h1 class="logo mr-auto"><a class="navbar-brand" href="index.html">
-        <img src="../assets/logo/zreyas-logo.png" alt="ZREYAS" class="img-fluid" height="10px" width="70px">
+        <img src="../assets/logo/zreyas-logo.png" alt="ZREYAS" class="img-fluid" height="40px" width="90px">
       </a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#why-us">Competitions</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#specials">Specials</a></li>
           <li><a href="#events">Events</a></li>
@@ -86,17 +84,16 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1>Welcome to <span>Restaurantly</span></h1>
-          <h2>Delivering great food for more than 18 years!</h2>
-
-          <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <h1 class="text-center">Welcome to <span>Gender Equality Club</span></h1>
+        
+          <div class="btns text-center">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Events</a>
             <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
           </div>
         </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="d-flex align-items-center justify-content-center mt-3" data-aos="zoom-in" data-aos-delay="200">
           <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video"
             data-autoplay="true"></a>
         </div>
@@ -140,37 +137,44 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Why Us</h2>
-          <p>Why Choose Our Restaurant</p>
+          <h2>Competitions</h2>
+          <p>Competitions for the event</p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
+              <h4 class="text-warning">Technical</h4>
               <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para
-                dest</p>
+              <h4 class="text-warning">Non-Technical</h4>
+              <p>Dolorem est fugiat occaecati voluptate velit esse.Et consectetur ducimus vero placeat
+            </p>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
+              <h4 class="text-warning">Cultural</h4>
               <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
             </div>
           </div>
 
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>04</span>
+              <h4 class="text-warning">Fun</h4>
+              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -181,7 +185,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Menu</h2>
+          <h2>Events</h2>
           <p>Check Our Tasty Menu</p>
         </div>
 
@@ -189,9 +193,10 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li data-filter=".filter-starters">Technical</li>
+              <li data-filter=".filter-salads">Non-Technical</li>
+              <li data-filter=".filter-specialty">Cultural</li>
+              <li data-filter=".filter-salty">Fun</li>
             </ul>
           </div>
         </div>
@@ -199,95 +204,154 @@
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+            <img src="https://www.pinclipart.com/picdir/big/408-4088160_counseling-clipart-difficult-conversation-events-on-paper-presentation.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
+              <a href="#">Papyrus Pitch</a>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Paper Presentation
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
+              <a href="#">Raise ur mic</a>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Singing
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
+              <a href="#">Innovato</a>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              Idea Presentation
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
+              <a href="#">Lens of Lit</a>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Photgraphy Competition
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salty">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Let the music speak</a>
+            </div>
+            <div class="menu-ingredients">
+              Lyrics identification
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Dancin' feet</a>
             </div>
             <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              Dancing
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Adzap</a>
+            </div>
+            <div class="menu-ingredients">
+              Marketing
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+              <a href="#">Fresh Fate</a>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Wealth From Junkyard
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salty">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Word junction</a>
+            </div>
+            <div class="menu-ingredients">
+              Word Junction
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
+              <a href="#">Before you Begin</a>
             </div>
             <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+              Speech
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
+              <a href="#">Meme Battle</a>
             </div>
             <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+              Meme Creation Competition
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salty">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Do you know me</a>
+            </div>
+            <div class="menu-ingredients">
+              Find out what
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Algo Tricks</a>
+            </div>
+            <div class="menu-ingredients">
+              Algorithm Identification
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
+              <a href="#">Feel the Rhythm</a>
             </div>
             <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              Instagram Reels
             </div>
           </div>
 
+          <div class="col-lg-6 menu-item filter-salty">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Why not.?</a>
+            </div>
+            <div class="menu-ingredients">
+              Break the rules
+            </div>
+          </div>
         </div>
 
       </div>
@@ -303,6 +367,63 @@
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">Modi sit est</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">Modi sit est</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">Modi sit est</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+              </li>
+            </ul>
+          </div>
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
