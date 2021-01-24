@@ -170,7 +170,7 @@
       menuIsotope.isotope({
         filter: $(this).data('filter')
       });
-      aos_init();
+      // aos_init();
     });
   });
 

@@ -934,6 +934,7 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -1420,9 +1421,10 @@ section {
 .chefs .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: white;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .chefs .member .member-info {
