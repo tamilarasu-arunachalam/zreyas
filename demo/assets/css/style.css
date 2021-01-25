@@ -1477,7 +1477,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #cda45e;
+  color: rgb(255, 53, 147);
 }
 
 .chefs .member .social i {
@@ -1501,6 +1501,19 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+@media (max-width: 600px) {
+  .chefs .member {
+    justify-content: center;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
