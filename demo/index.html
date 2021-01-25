@@ -68,14 +68,13 @@
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <!--  -->
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#specials">Rules</a></li>
-          <li><a href="#events">Events</a></li>
+          <li><a href="#menu">Events</a></li>
+          <!-- <li><a href="#specials">Rules</a></li> -->
+          <!-- <li><a href="#events">Events</a></li> -->
           <li><a href="#why-us">Contact</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <!-- <li><a href="#gallery">Gallery</a></li> -->
           <li><a href="#chefs">Multimedia Partners</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
           <!-- <li class="book-a-table text-center"><a href="#book-a-table">Book a table</a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
@@ -92,11 +91,11 @@
 
           <div class="btns text-center">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Events</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+            <!-- <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a> -->
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-center mt-3" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=foZPTZvKq_g" class="venobox play-btn" data-vbtype="video"
+          <a href="https://www.youtube.com/watch?v=foZPTZvKq_g" title="Play Promo Video" class="venobox play-btn" data-vbtype="video"
             data-autoplay="true"></a>
         </div>
 
@@ -141,16 +140,15 @@
     </section><!-- End About Section -->
 
     <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu section-bg justify-content-center">
+    <section id="menu" class="menu section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Events</h2>
           <p>Events</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex">
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-starters">Tech</li>
@@ -173,13 +171,13 @@
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/singing.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/algotricks.png" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#" data-toggle="modal" data-target="#raiseurmic">Raise ur mic</a>
+              <a href="#" data-toggle="modal" data-target="#algotricks">Algo Tricks</a>
             </div>
             <div class="menu-ingredients">
-              Singing
+              Algorithm Identification
             </div>
           </div>
 
@@ -190,6 +188,26 @@
             </div>
             <div class="menu-ingredients">
               Idea Presentation
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/freshfate.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#" data-toggle="modal" data-target="#freshfate">Fresh Fate</a>
+            </div>
+            <div class="menu-ingredients">
+              Wealth From Junkyard
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/singing.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#" data-toggle="modal" data-target="#raiseurmic">Raise ur mic</a>
+            </div>
+            <div class="menu-ingredients">
+              Singing
             </div>
           </div>
 
@@ -233,16 +251,6 @@
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/freshfate.png" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#" data-toggle="modal" data-target="#freshfate">Fresh Fate</a>
-            </div>
-            <div class="menu-ingredients">
-              Wealth From Junkyard
-            </div>
-          </div>
-
           <div class="col-lg-6 menu-item filter-salty">
             <img src="assets/img/menu/wordjunction.jpg" class="menu-img" alt="">
             <div class="menu-content">
@@ -283,16 +291,6 @@
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/algotricks.png" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#" data-toggle="modal" data-target="#algotricks">Algo Tricks</a>
-            </div>
-            <div class="menu-ingredients">
-              Algorithm Identification
-            </div>
-          </div>
-
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/reels.png" class="menu-img" alt="">
             <div class="menu-content">
@@ -317,35 +315,515 @@
     </section>
     <!-- End Menu Section -->
     <!-- modals start -->
-      <!-- papyrus pitch -->
-    <div class="modal fade" id="papyruspitch" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content bg-dark text-white rounded-0">
-        <div class="modal-header border-0 text-center">
-          <h5 class="modal-title text-warning">Modal title</h5>
-          <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error ipsam tempore, sapiente odio quo
-            rem natus voluptatibus, nam sed aperiam molestias omnis reiciendis aspernatur id soluta aliquid fugiat
-            neque possimus voluptates inventore veniam ipsa. Molestias et adipisci magni officiis ducimus ipsam quod
-            exercitationem, ex est. Quo vitae atque cum excepturi tempora odit dolorum voluptatum. Harum, beatae
-            exercitationem, reiciendis tempora, atque earum nesciunt fuga illum necessitatibus architecto explicabo
-            omnis magni iste tenetur at maxime blanditiis? Iure recusandae iusto debitis aperiam eos quibusdam
-            perferendis neque, ullam repellat ducimus dolor nam odit ipsam, consectetur cupiditate eligendi esse.
-            Repellendus sint in enim. Molestiae.</p>
-        </div>
-        <div class="modal-footer border-0">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- papyrus pitch -->
+
+    <div class="modal fade" role="dialog" id="papyruspitch" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Papyrus Pitch</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>Maximum number of participants in a team is THREE.</li>
+              <li>Papers need to be sent in the specified & suggested areas only.</li>
+              <li>Please mail your abstract to the respective mail-id.</li>
+              <li>The mail id should contain the following:
+                <ol class="pl-5">
+                  <li>Title of the Paper</li>
+                  <li>Name of the Participants</li>
+                </ol>
+              </li>
+              <li>Abstract should not exceed 1 page and paper should not exceed 10 pages.</li>
+              <li>The teams will get 10 minutes for presentation followed by question and answer session.
+              </li>
+              <li>After submission of the soft copy, a panel of judges will go through the papers and if
+                you
+                are shortlisted to give the presentation, you will be notified.</li>
+              <li>The decision of judges will be final and no arguments or appeal will be entertained.
+              </li>
+              <li>There should be minimum of 10 slides and it should not exceed 20.</li>
+              <li><b class="text-primary">TOPICS: </b>
+                <ol class="pl-5">
+                  <li>Gender Equality</li>
+                  <li>Importance of Cyber Security</li>
+                  <li>Bio Energy Resources</li>
+                  <li>Disaster Management</li>
+                  <li>Basics of IC Engine</li>
+                  <li>Embedded Systems </li>
+                </ol>
+              </li>
+            </ul>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- modals ends -->
+    <!-- innovato -->
+    <div class="modal fade" role="dialog" id="innovato" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Innovato</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>Your presentation should be 15 minutes long with time (5 minutes) for questions
+                afterward.</li>
+              <li>Maximum number of participants is Three. Each member of your group (if your project is a
+                group project) must play a significant role in the presentation.</li>
+              <li>Please mail your abstract along with objective of the project not exceeding 1 page to
+                the respective mail-id.</li>
+              <li>The mail id should contain the following:
+                <ol class="pl-5">
+                  <li>Title of the Paper along with a 1 line objective.</li>
+                  <li>Name of the Participants</li>
+                  <li>Email Id & Mobile Number of the Authors</li>
+                  <li>Year of study, department and College of the Authors.</li>
+                </ol>
+              </li>
+              <li>Start with an outline and end with a conclusion. At the beginning of your presentation,
+                let your panel members know what to expect; at the end, concisely review what you’ve
+                done</li>
+              <li>The decision of judges will be final and no arguments or appeal will be entertained.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- freshfate -->
+    <div class="modal fade" role="dialog" id="freshfate" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Fresh Fate</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>Should use waste materials to bring out a new object / material related to technical
+                field. Example: Can use waste sticks and cardboard to make a clock.</li>
+              <li>Should be creative and innovative.</li>
+              <li>It can be any type of scrap.</li>
+              <li>No team work. The work should be individual.</li>
+              <li>It will rejected if it is not taken from scrap/ waste materials.</li>
+              <li>A page write up about the work is necessary to be sent to the respective mail-id.</li>
+              <li>The mail with submissions should contain:
+                <ol class="pl-5">
+                  <li>Title of the work made.</li>
+                  <li>Materials used to make the work</li>
+                  <li>Name of the participant</li>
+                  <li>Phone numbers of the participant</li>
+                  <li>Year of study, department and College Name of the participant.</li>
+                </ol>
+              </li>
+              <li>The participants should capture the images ( Max 4 images ) of the work made and send it
+                to the respective mail Id.</li>
+              <li>The decision of judges will be final and no arguments or appeal will be entertained.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- algotricks -->
+    <div class="modal fade" role="dialog" id="algotricks" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Algo Tricks</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>The students will be displayed a set of algorithms with mistakes in set of lines. The
+                students must correct the algorithm in provided time.</li>
+              <li>Should unmute and answer.</li>
+              <li>Futher details will be sent through the registered mail</li>
+              <li>The decision of judges will be final and no arguments or appeal will be entertained.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- lens of lit -->
+    <div class="modal fade" role="dialog" id="lensoflit" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Lens Of Lit</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>PLAGIARISM is strictly prohibited. If found that entry will be disqualified.</li>
+              <li>Photo can be taken either in DSLR or Mobile phone.</li>
+              <li>Participants can choose only one topic among given topics. </li>
+              <li>Basic editing is only allowed.</li>
+              <li>Only one entry is allowed per participants.</li>
+              <li>Participants should submit two images (Straight out of camera image, edited image)</li>
+              <li>The image should convey a message or story.</li>
+              <li>A caption(not more than 20 words) is to be submitted along with image.</li>
+              <li>Only JPEG format is allowed.</li>
+              <li><b>TOPICS:</b>
+                <ol class="pl-5">
+                  <li>Women as a worker. </li>
+                  <li>Transgender. </li>
+                  <li>Struggling men. </li>
+                </ol>
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- adzap -->
+    <div class="modal fade" role="dialog" id="adzap" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Adzap</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>PLAGIARISM is strictly prohibited. If found that entry will be disqualified.</li>
+              <li>Videos can be taken either in DSLR or Mobile phone.</li>
+              <li>Maximum of 3 participants are allowed per team</li>
+              <li>Video should not exceed 30 Seconds </li>
+              <li>Find the clue from the following phrase and then market the product on your own</li>
+              <li>participants can choose only one topic among the given topics. </li>
+              <li>Incase of multiparticipant, Videos must be taken individually and can be combined </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- before you begin -->
+    <div class="modal fade" role="dialog" id="beforeyoubegin" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Before You Begin</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>Topic will be given on the Spot</li>
+              <li>The speech must not exceed 1 minute</li>
+              <li>The speech can be either in Tamil or English </li>
+              <li>video must be turned on</li>
+              <li>Proper dress code must be maintained</li>
+              <li>Jury's decision will be final one</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- meme battle -->
+    <div class="modal fade" role="dialog" id="memebattle" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Meme Battle</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>No negative or harassment contents.</li>
+              <li>No fake NEWS.</li>
+              <li>Adult and hatred contents are disqualified and won’t receive any E-certificates.</li>
+              <li>The meme template should contain images only from Hollywood movies.</li>
+              <li><b class="text-primary">TOPICS:</b>
+                <ol class="pl-5">
+                  <li>Gender disparity in india</li>
+                  <li>What is it mean to be transgender?</li>
+                </ol>
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- raise ur mic -->
+    <div class="modal fade" role="dialog" id="raiseurmic" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Raise ur Mic</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <p class="text-justify text-light">Do you feel your voice can touch millions?
+
+              Move the audience with your perfect notes and let the world feel the rhythm!
+
+              This Virtual Youth Festival Zreyas’21- brings you the greatest opportunity to explore your
+              singing
+              talent. Solo and group singing by youngsters – ‘PITCH PERFECT’</p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>Either solo or group singing is allowed.</li>
+              <li>All languages are accepted.</li>
+              <li>One instrument can be used.</li>
+              <li>Raw videos only (any kind of editing will lead to disqualification)</li>
+              <li>Video can be of maximum 3 to 5 minutes.</li>
+              <li>Use of karaoke is not allowed.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dancin' feet -->
+    <div class="modal fade" role="dialog" id="dancinfeet" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Dancin' Feet</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <p class="text-justify text-light">Got the Moves like Jagger?
+
+              Put on your dance shoes and get set roll on the floor to show your moves to the world!!
+
+              This Virtual Youth Festival Zreyas’21- brings you the greatest opportunity to explore your
+              dance talent. Solo and group dance by youngsters - 'LEVEL UP'
+            </p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>All languages and dance forms are accepted.</li>
+              <li>Either solo or group performance is allowed</li>
+              <li>Raw videos only (any kind of editing will lead to disqualification)</li>
+              <li>Duration – 5 minutes</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- feel the rhythm -->
+    <div class="modal fade" role="dialog" id="feeltherhythm" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Feel The Rhythm</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <p class="text-justify text-light">Do instagram reels and work with your creation- 'The Catchy You'
+              Furnish your creation just in 30 seconds.
+            </p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>You can record and edit ur video clip with a time limit of 30 seconds.</li>
+              <li>You can use your own audio or else select from instagram library.</li>
+              <li>Duet is allowed </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- let the music speak -->
+    <div class="modal fade" role="dialog" id="letthemusicspeak" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Let The Music Speak</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <h4 class="text-left">Round 1</h4>
+            <ul>
+              <li>3 members per team.</li>
+              <li>Each team will be asked 4 questions.</li>
+              <li>Guess the tamil song from the translated english lyrics.</li>
+              <li>15 seconds will be given.</li>
+            </ul>
+            <h4 class="text-left">Round 2</h4>
+            <ul>
+              <li>There will be both english and tamil lyrics of that tamil song .</li>
+              <li>In that team members have to find the missing words within the time limit .</li>
+            </ul>
+            </p>
+            <h4 class="text-danger text-left">Note:</h4>
+            <ul>
+              <li>The teams selected in round 1 will go to round 2.</li>
+              <li>Juries decisions will be final,teams not following this will be disqualified.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- word junction -->
+    <div class="modal fade" role="dialog" id="wordjunction" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Word Junction</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <h4 class="text-left">Round 1 - WORD BUILDING</h4>
+            <ul>
+              <li>Individual participation.</li>
+              <li>5 seconds time for each one.</li>
+              <li>The participants wants to tell the word related to the given word.</li>
+              <li><b>Example:</b> Dark bright sun yellow.</li>
+            </ul>
+            <h4 class="text-left">Round 2 - ENGTAM or TAMENG</h4>
+            <ul>
+              <li>Individual participants</li>
+              <li>5 seconds time for each one</li>
+              <li>Either English word or tamil word is given, the participants must continue the chain with tamil
+                and English words alternatively.</li>
+              <li><b>Example:</b> Bird kili Green maram leaves etc.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- do you know me -->
+    <div class="modal fade" role="dialog" id="doyouknowme" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Do You Know Me</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <h4 class="text-left">Round 1 - FIND ME</h4>
+            <ul>
+              <li>2 members per team.</li>
+              <li>Each team will have 2 bgm's of any ad.</li>
+              <li>Guess the bgm within 10 secs.</li>
+            </ul>
+            <h4 class="text-left">Round 2 - FIND OUT</h4>
+            <ul>
+              <li>Each team will have 2 ads randomly.</li>
+              <li>Observe the ad given to you.</li>
+              <li>For each team, we will ask 3 questions from the ad.</li>
+              <li>Answer them within 15 secs.</li>
+            </ul>
+            </p>
+            <h4 class="text-danger text-left">Note:</h4>
+            <ul>
+              <li>The teams selected in round 1 will go to round 2.</li>
+              <li>Juries decisions will be final,teams not following this will be disqualified.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- why not -->
+    <div class="modal fade" role="dialog" id="whynot" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white rounded-0">
+          <div class="modal-header border-0">
+            <h3 class="modal-title mx-auto text-warning">Why Not.?</h3>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+            <h5 class="text-warning">EVENT RULES</h5>
+            <ul>
+              <li>No team formation (individual event).</li>
+              <li>Rules list will be shown one by one in the screen for 10sec for all participants.</li>
+              <li>Break the given rules within the time of 5 sec and the time is given for each participant.</li>
+              <li>The participants who will break more rules consider as a winner</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modals ends -->
     <!-- ======= Specials Section ======= -->
     <!-- <section id="specials" class="specials">
       <div class="container" data-aos="fade-up">
@@ -1125,7 +1603,7 @@
     <!--End Why Us Section -->
 
     <!-- ======= Book A Table Section ======= -->
-    <section id="book-a-table" class="book-a-table">
+    <!-- <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -1181,10 +1659,11 @@
         </form>
 
       </div>
-    </section><!-- End Book A Table Section -->
+    </section> -->
+    <!-- End Book A Table Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -1257,7 +1736,8 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Gallery Section ======= -->
     <!-- <section id="gallery" class="gallery">
