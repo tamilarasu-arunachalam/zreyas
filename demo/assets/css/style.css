@@ -1831,3 +1831,28 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group input::-webkit-input-placeholder{
+  color: #a49b89;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-groupm input::-moz-placeholder{
+  color: #a49b89;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group input:-ms-input-placeholder{
+  color: #a49b89;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group input::-ms-input-placeholder{
+  color: #a49b89;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group input::placeholder{
+  color: #a49b89;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group input:focus {
+  border-color: #cda45e;
+  outline:#f8d494 !important;
+}
