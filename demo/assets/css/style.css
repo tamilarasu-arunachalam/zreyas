@@ -1733,8 +1733,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cda45e;
-  color: #fff;
+  background: white;
   text-decoration: none;
 }
 
