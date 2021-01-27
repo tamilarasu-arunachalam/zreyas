@@ -1,14 +1,15 @@
-/**
-* Template Name: Restaurantly - v1.2.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+/* fontawesome icons */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/* --- */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@-moz-document url-prefix() {
+  html{
+    scrollbar-width: none;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
@@ -32,6 +33,38 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar {
   width: 0px;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+input:focus {
+  border-color: #cda45e;
+  outline:#f8d494 !important;
+}
+input[type="file"]:focus {
+  border-color: #cda45e;
+  outline:#f8d494 !important;
+}
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus,
+input[type=file]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none;
+}
+
+.text-warning{
+  color:#f8d494 !important;
+}
+
+.btn-warning{
+  color:#f8d494 !important;
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -1721,7 +1754,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #28251f;
+  background: white;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1734,7 +1767,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: white;
+  background: rgb(184, 175, 175);
   text-decoration: none;
 }
 
@@ -1831,7 +1864,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
+/* modal CSS */
 .modal .modal-dialog .modal-content .modal-body .form-row .form-group input::-webkit-input-placeholder{
   color: #a49b89;
 }
@@ -1856,7 +1889,7 @@ section {
   border-color: #cda45e;
   outline:#f8d494 !important;
 }
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input[type=file]:focus {
+.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input[type="file"]:focus {
   border-color: #cda45e;
   outline:#f8d494 !important;
 }
