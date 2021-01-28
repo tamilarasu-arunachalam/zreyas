@@ -152,56 +152,6 @@ input[type=number]:focus,
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-/* #topbar {
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-}
-
-#topbar.topbar-scrolled {
-  top: -40px;
-}
-
-#topbar .contact-info {
-  color: white;
-}
-
-#topbar .contact-info i {
-  color: #d9ba85;
-  padding-right: 4px;
-}
-
-#topbar .contact-info i + i {
-  margin-left: 15px;
-}
-
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #cda45e;
-}
-
-#topbar .languages ul a {
-  color: white;
-}
-
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-} */
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
