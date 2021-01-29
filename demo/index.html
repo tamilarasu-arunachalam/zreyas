@@ -74,7 +74,7 @@
 
           <div class="btns text-center">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Events</a>
-            <a href="" data-toggle="modal" data-target="#notyet"
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/viewform" target="_blank"
               class="btn-book animated fadeInUp scrollto">Register</a>
           </div>
         </div>
@@ -1072,7 +1072,7 @@
 
     </section> -->
     <!-- End Contact Section -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="modal fade" role="dialog" id="register">
@@ -1085,10 +1085,11 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/formResponse" method="post">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/viewform?embedded=true" frameborder="0" width="500px" height="100%"></iframe>
+                  <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/formResponse" method="post">
                     <div class="form-row m-3">
                       <div class="col-md-4 form-group">
-                        <input type="text" name="entry.512719763" class="form-control rounded-0 bg-dark" id="name"
+                        <input type="number" name="entry.512719763" class="form-control rounded-0 bg-dark" id="name"
                           placeholder="Referral Code" />
                       </div>
                       <div class="col-md-4 form-group">
@@ -1263,9 +1264,12 @@
                       </div>
                     </div>
                     <div class="form-row justify-content-center p-2">
+                      <form action="https://script.google.com/macros/s/AKfycbzWTTl59vktXVX8b6DiCOWSbY0OTjuV4mrXaiqGoGOB4BZN5OJi07EiiA/exec" id="form" method="post">  
                       <div class="col-md-6 form-group rounded-0 text-center p-2">
-                        <p style="font-family:'Source Sans Pro', sans-serif !important;">Proof for payment : <input type="file" name="entry.1383775548" id="" class="border border-light" style="background: #343a40 !important;"></p>
+                        <p style="font-family:'Source Sans Pro', sans-serif !important;">Proof for payment : <div id="data"></div><input type="file" name="file" id="uploadfile" class="border border-light" style="background: #343a40 !important;" required></p>
                       </div>
+                      <input id="submit" type="submit">
+                    </form>
                     </div>
                     <div class="form-row justify-content-center">
                       <div class="col-md-12">
@@ -1276,20 +1280,20 @@
                               <span class="text-warning">Branch Name : </span>PERUNDURAI - KONGU ENGINEERING COLLEGE</p>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="modal-footer border-0 mx-auto">
-                  <div class="text-center"><button type="submit"
+                  <!-- <div class="text-center"><button type="submit"
                       class="btn btn-outline-warning rounded-0 mdl">Register</button>
                   </div>
-                  </form>
+                  </form> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- not yet modal -->
     <div class="modal fade" id="notyet">
       <div class="modal-dialog">
@@ -1331,7 +1335,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="" data-toggle="modal" data-target="#register">Register</a>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://docs.google.com/forms/d/e/1FAIpQLScLC3JgJS_AS9HSinWaIGGD7B4eKd4WhUFczLawUSSuKkjq0Q/viewform" target="_blank">Register</a>
               </li>
             </ul>
           </div>
@@ -1367,6 +1371,19 @@
   <script src="assets/js/main.js"></script>
 
   <script>
+     $('#uploadfile').on("change", function() {
+        var file = this.files[0];
+        var fr = new FileReader();
+        fr.fileName = file.name;
+        fr.onload = function(e) {
+            e.target.result
+            html = '<input type="hidden" name="data" value="' + e.target.result.replace(/^.*,/, '') + '" >';
+            html += '<input type="hidden" name="mimetype" value="' + e.target.result.match(/^.*(?=;)/)[0] + '" >';
+            html += '<input type="hidden" name="filename" value="' + e.target.fileName + '" >';
+            $("#data").empty().append(html);
+        }
+        fr.readAsDataURL(file);
+    });
   </script>
 </body>
 
