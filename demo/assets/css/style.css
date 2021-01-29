@@ -73,8 +73,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .btn-warning{
-  color:#f8d494 !important;
+  background-color:#f8d494 !important;
+  border-color:#f8d494 !important;
+  outline-color: #f8d494 !important;
 }
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
