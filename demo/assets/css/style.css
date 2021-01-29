@@ -77,7 +77,16 @@ input[type=number]::-webkit-outer-spin-button {
   border-color:#f8d494 !important;
   outline-color: #f8d494 !important;
 }
-
+.btn-outline-warning{
+  border-color:#f8d494 !important;
+  outline-color: #f8d494 !important;
+  background-color: black;
+  color:#f8d494 !important;
+}
+.btn-outline-warning:hover{
+  background-color: #f8d494 !important;
+  color:black !important;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1915,4 +1924,15 @@ li.timeline-item::before {
   height: 14px;
   z-index: 400;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.mdl{
+  background:#343a40 !important;
+  border-color:#f8d494 !important;
+  outline-color: #f8d494 !important;
+  color:#f8d494 !important;
+}
+.mdl:hover
+{
+  color:#343a40;
+  background-color: #f8d494 !important;
 }
