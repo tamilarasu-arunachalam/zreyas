@@ -1,5 +1,6 @@
-/* fontawesome icons */
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/* fonts */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"); /* fontawesome icons */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /* --- */
 /*--------------------------------------------------------------
 # General
@@ -57,6 +58,14 @@ input[type=number]:focus,
 [type=tel].form-control:focus, 
 [contenteditable].form-control:focus {
   box-shadow: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
 
 .text-warning{
@@ -1839,29 +1848,24 @@ section {
   border-color: #cda45e;
   outline:#f8d494 !important;
 }
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input[type="file"]:focus {
-  border-color: #cda45e;
-  outline:#f8d494 !important;
+
+.fade .modal-dialog .modal-content .modal-body .form-row .form-group input{
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: #0c0b09;
+  border-color: #625b4b;
+  color: white;
 }
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input::-webkit-input-placeholder{
-  color: #a49b89;
+.fade .modal-dialog .modal-content .modal-body .form-row .form-group input::-webkit-outer-spin-button,
+.fade .modal-dialog .modal-content .modal-body .form-row .form-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input::-moz-placeholder{
-  color: #a49b89;
+.fade .modal-dialog .modal-content .modal-body .form-row .form-group input[type=number] {
+  -moz-appearance: textfield;
 }
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input:-ms-input-placeholder{
-  color: #a49b89;
-}
-
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file input::-ms-input-placeholder{
-  color: #a49b89;
-}
-
-.modal .modal-dialog .modal-content .modal-body .form-row .form-group .custom-file .custom-file-input::placeholder{
-  color: #a49b89;
-}
-
 /* timeline CSS*/
 ul.timeline {
   list-style-type: none;

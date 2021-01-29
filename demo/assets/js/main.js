@@ -218,3 +218,33 @@
   });
 
 })(jQuery);
+
+$(".team").change(function () {
+  $(".team").not(this).prop('checked', false);
+});
+
+  $(document).ready(function () {
+$('.one').fadeOut('slow');
+$('#addOne').change(function () {
+    if (!this.checked) 
+    {
+      $('.one').fadeOut('slow');
+    }
+    else {
+      $('.one').fadeIn('slow');
+    }
+});
+});
+
+$(document).ready(function () {
+$('.members').fadeOut('slow');
+$('#addTeam').change(function () {
+    if (!this.checked) 
+    {
+      $('.members').fadeOut('slow');
+    }
+    else {
+      $('.members').fadeIn('slow');
+    }
+});
+});

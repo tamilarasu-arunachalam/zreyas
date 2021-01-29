@@ -1068,9 +1068,9 @@
     </section>
     <!-- End Chefs Section -->
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
 
-    </section>
+    </section> -->
     <!-- End Contact Section -->
     <div class="container">
       <div class="row">
@@ -1079,7 +1079,7 @@
             <div class="modal-dialog modal-lg modal-dialog-scrollable">
               <div class="modal-content rounded-0 bg-dark">
                 <div class="modal-header border-0">
-                  <h3 class="modal-title mx-auto text-warning">Registration Form</h3>
+                  <h3 class="text-center mx-auto text-warning" style="font-family:'Source Sans Pro', sans-serif !important">Registration Form</h3>
                   <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -1124,14 +1124,14 @@
                           placeholder="Place" />
                       </div>
                       <div class="col-md-4 form-group">
-                        <input type="tel" name="name" class="form-control rounded-0 bg-dark" id="name"
+                        <input type="number" inputmode="numeric" name="name" class="form-control rounded-0 bg-dark" id="name"
                           placeholder="Whatsapp Number" />
                       </div>
                     </div>
-                    <h4 class="text-center">Events Participating</h4>
+                    <h4 class="text-center" style="font-family:'Source Sans Pro', sans-serif !important">Events Participating</h4>
                     <div class="form-row m-3">
                       <div class="col-md-6 form-group">
-                        <h4 class="text-warning ml-5">Technical Events</h4>
+                        <h4 class="text-warning ml-5" style="font-family:'Source Sans Pro', sans-serif !important">Technical Events</h4>
                         <div class="form-check py-2 ml-5">
                           <input class="form-check-input" type="checkbox" id="papy" value="option1">
                           <label class="form-check-label" for="papy">Papyrus Pitch</label>
@@ -1150,7 +1150,7 @@
                         </div>
                       </div>
                       <div class="col-md-6 form-group">
-                        <h4 class="text-warning ml-5">Non-Technical Events</h4>
+                        <h4 class="text-warning ml-5" style="font-family:'Source Sans Pro', sans-serif !important">Non-Technical Events</h4>
                         <div class="form-check py-2 ml-5">
                           <input class="form-check-input" type="checkbox" id="lens" value="Lens of Lit">
                           <label class="form-check-label" for="lens">Lens of Lit</label>
@@ -1171,7 +1171,7 @@
                     </div>
                     <div class="form-row m-3">
                       <div class="col-md-6 form-group">
-                        <h4 class="text-warning ml-5">Cultural Events</h4>
+                        <h4 class="text-warning ml-5" style="font-family:'Source Sans Pro', sans-serif !important">Cultural Events</h4>
                         <div class="form-check py-2 ml-5">
                           <input class="form-check-input" type="checkbox" id="rumic" value="Raise ur mic">
                           <label class="form-check-label" for="rumic">Raise ur mic</label>
@@ -1186,7 +1186,7 @@
                         </div>
                       </div>
                       <div class="col-md-6 form-group">
-                        <h4 class="text-warning ml-5">Fun Events</h4>
+                        <h4 class="text-warning ml-5" style="font-family:'Source Sans Pro', sans-serif !important">Fun Events</h4>
                         <div class="form-check py-2 ml-5">
                           <input class="form-check-input" type="checkbox" id="ltms" value="Let the music speak">
                           <label class="form-check-label" for="ltms">Let the music speak</label>
@@ -1205,9 +1205,9 @@
                         </div>
                       </div>
                     </div>
-                    <h4 class="text-center">If it is a team event, add your team members</h4>
+                    <h4 class="text-center" style="font-family:'Source Sans Pro', sans-serif !important"><input type="checkbox" id="addTeam" name="team" class="team"> Check This box,To add your team members</h4>
                     <div class="form-row">
-                      <div class="col-md-6">
+                      <div class="col-md-6 members">
                         <p class="text-center text-primary">Member 1</p>
                         <div class="col-md-12 form-group">
                           <input type="text" name="name" class="form-control rounded-0 bg-dark" id="name"
@@ -1234,7 +1234,7 @@
                             placeholder="Event" />
                         </div>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 members">
                         <p class="text-center text-primary">Member 2</p>
                         <div class="col-md-12 form-group">
                           <input type="text" name="name" class="form-control rounded-0 bg-dark" id="name"
@@ -1263,13 +1263,13 @@
                       </div>
                     </div>
                     <div class="form-row justify-content-center p-2">
-                      <div class="col-md-6 form-group rounded-0 text-center">
-                        <h5>Proof for payment : </h5><input type="file" name="" id="" class="border border-light">
+                      <div class="col-md-6 form-group rounded-0 text-center p-2">
+                        <h5 style="font-family:'Source Sans Pro', sans-serif !important">Proof for payment : <input type="file" name="" id="" class="border border-light"></h5>
                       </div>
                     </div>
                     <div class="form-row justify-content-center">
                       <div class="col-md-12">
-                        <h4 class="text-center">If the payment is not done use the below details for payment</h4>
+                        <h4 class="text-center" style="font-family:'Source Sans Pro', sans-serif !important">If the payment is not done use the below details for payment</h4>
                         <div class="ml-5 justify-content-center">
                           <p>Acc No : </p>
                           <p>IFSC Code : </p>
@@ -1331,7 +1331,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="" data-toggle="modal" data-target="#notyet">Register</a>
+              <li><i class="bx bx-chevron-right"></i> <a href="" data-toggle="modal" data-target="#register">Register</a>
               </li>
             </ul>
           </div>
@@ -1366,6 +1366,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+  </script>
 </body>
 
 </html>
